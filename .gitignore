@@ -1,0 +1,15 @@
+# Secrets & tokens
+.env
+.mcp.json
+
+# System files
+.DS_Store
+
+# Claude local config
+.claude/
+
+# Client documents (PDFs live in Google Drive)
+*.pdf
+
+# Output artifacts from stages
+stages/*/output/

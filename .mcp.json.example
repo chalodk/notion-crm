@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "notion": {
+      "type": "http",
+      "url": "https://mcp.notion.com/mcp",
+      "env": {
+        "NOTION_TOKEN": "ntn_..."
+      }
+    },
+    "gdrive": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["~/.gdrive/run-mcp.cjs"]
+    }
+  }
+}
